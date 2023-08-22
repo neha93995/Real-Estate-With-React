@@ -1,5 +1,6 @@
 {
   "name": "home",
+  "homepage": "https://neha93995.github.io/Real-Estate-With-React",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,9 @@
     "axios": "^1.1.2",
     "gapi": "^0.0.3",
     "gapi-script": "^1.2.0",
+    "gh": "^2.8.9",
+    "gh-pages": "^6.0.0",
+    "pages": "0.0.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-google-login": "^5.2.2",
@@ -25,6 +29,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
