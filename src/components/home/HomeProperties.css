@@ -1,0 +1,11 @@
+#popUp{
+    visibility: hidden;
+
+}
+
+#popUp.active{
+    visibility: visible;
+}
+#backgroundPopup.active{
+    filter: blur(20px);
+}

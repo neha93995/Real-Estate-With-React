@@ -1,0 +1,88 @@
+@keyframes ani{
+  0% { left: 0;}
+  100% {left:10rem; width: 2px;}
+}
+
+.myImg{
+  animation: ani 15s linear 2s infinite;
+}
+@keyframes myTextAni{
+    0% {margin-bottom:7px ;}
+    25%  {margin-bottom:7px ;}
+    50% {margin-bottom:7px ;}
+    75% {margin-bottom:7px ;}
+  100% {margin-bottom:7px ;}
+  
+}
+.myText{
+    animation: myTextAni 1s linear 2s 2;
+  
+}
+@keyframes textStyle{
+  0% {transform:rotateY(0deg)}
+  25% {transform:rotateY(90deg)}
+  50% {transform:rotateY(180deg)}
+  75% {transform:rotateY(270deg)}
+  100% {transform:rotateY(360deg)}
+}
+.myTextStyle{
+  animation: textStyle 5s linear 2s infinite;
+  
+}
+
+@keyframes divStyle{
+  0% { top:6rem;  opacity: 0.0;}
+   10%{ top:5rem;  opacity: 0;}
+   100%{ top:3.5rem;  opacity: 1;}
+
+}
+.myAnimatedDiv{
+  animation: divStyle 1s linear  1 ;
+}
+@keyframes arrow{
+  from{left:5rem}
+  to{left:6rem}
+}
+.myArrowAni{
+  animation: arrow 1s linear 1;
+}
+@keyframes image{
+  from{opacity:0}
+  to{opacity: 1;}
+}
+.myImageAni{
+  animation: image 3s linear 1;
+}
+
+.loginPage{
+  background-image:url('https://www.onehome.com/assets/images/social/onehome_fb_og.jpg' );
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+
+}
+
+.form-control input:focus{
+  transform: translateY(10px);
+}
+
+.text{
+  /* text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722; */
+               display: flex;
+      background: linear-gradient(to right,blue,green,red,violet,yellow);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+option{
+  background-color: white;
+  color:black;
+}
