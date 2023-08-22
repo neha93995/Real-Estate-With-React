@@ -22,7 +22,6 @@ export default function Navbar() {
                         <Link to='/PostProperty' >Post Property<span className='bg-yellow-400 rounded-lg text-xs px-1 mx-3 w-9 h3 animate-pulse'>free</span></Link>
                     </div>
                     <div className=' cursor-pointer text-center  bg-blue-900 mx-1 px-4 h-6 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-150 rounded-md ' ><Link to='/Login' state={getData}>{login}</Link></div>
-                    <li><Link to='/Reduxpart' className='hover:underline underline-offset-8 decoration-2 decoration-blue-900'>Redux</Link></li>
                     <li><Link to='/FetchingData' className='hover:underline underline-offset-8 decoration-2 decoration-blue-900'>New</Link></li>
                 </ul>
             </nav>
